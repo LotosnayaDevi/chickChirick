@@ -1,0 +1,90 @@
+.price {
+  padding: 62px 0;
+}
+
+.price__title {
+  font-weight: 400;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 0 0 70px;
+}
+.price__wrapper-content {
+  display: flex;
+  gap: 32px;
+}
+
+.price__wrapper-content:before {
+  content: "";
+  flex-basis: 50%;
+  background-position: top;
+  background-size: cover;
+  background-image: url(../images/price-wall.jpg);
+}
+
+.price__content {
+  flex-basis: 50%;
+}
+.price__list {
+  padding: 0;
+  margin: 0 0 62px;
+}
+.price__item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 1;
+  padding-bottom: 7px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #000;
+}
+
+.price__item:last-child {
+  margin-bottom: 0;
+}
+
+.price__item-title {
+  text-transform: uppercase;
+}
+
+.price__item-count {
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .price {
+    padding: 40px 0;
+  }
+
+  .price__title {
+    font-size: 32px;
+    margin-bottom: 60px;
+  }
+  .price__wrapper-content:before {
+    content: none;
+  }
+  .price__content {
+    flex-basis: 100%;
+  }
+  .price__list {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 560px) {
+  .price {
+    padding: 32px 0;
+  }
+  .price__title {
+    font-style: 20px;
+    margin-bottom: 40px;
+  }
+  .price__list {
+    margin-bottom: 24px;
+  }
+  .price__item {
+    padding-bottom: 6px;
+    margin-bottom: 16px;
+    font-size: 12px;
+    line-height: 1.2;
+  }
+}
