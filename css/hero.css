@@ -10,6 +10,10 @@
   margin-bottom: 36px;
 }
 
+.hero__slider {
+  min-height: 372px;
+}
+
 @media (max-width: 768px) {
   .hero {
     padding: 40px 0;
