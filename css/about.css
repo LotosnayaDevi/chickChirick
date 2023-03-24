@@ -29,19 +29,18 @@
     background-position: left;
     background-repeat: no-repeat;
     background-size: 80px;
-
-
 }
 
 .about__item_top {
-    background-image: url(images/top.svg);
+    background-image: url(../images/top.svg);
 }
 .about__item_master {
-    background-image: url(images/master.svg);
+    background-image: url(../images/master.svg);
 }
 .about__item_guarantee {
-    background-image: url(images/guarantee.svg);
+    background-image: url(../images/guarantee.svg);
 }
+
 
 .about__item-title {
     margin: 0 0 8px;
